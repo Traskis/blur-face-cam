@@ -1,37 +1,22 @@
-Project overview
+# Blur Face Cam
 
-Automatic Real-Time Face Blurring
+This is a simple Python project that automatically blurs faces in real time using a webcam.  
+It helps protect privacy — the face becomes unrecognizable in the video preview and saved photos.  
+Everything runs locally on your computer (no internet or cloud processing).
 
-This project implements a Python-based tool
-that automatically blurs a person’s face while
-taking photos or recording video in real time.
-The goal is to protect privacy by making faces
-unrecognizable both during live preview and in saved images.
+## Setup
 
-Technologies used:
-Python, OpenCV, MediaPipe FaceMesh, NumPy.
-
-The application continuously reads frames from the camera,
-detects faces, builds a face contour, and applies a strong blur
-only to that region, leaving the rest of the image intact.
-Pressing c saves the blurred image, while q closes the program.
-All processing happens locally on the computer, so no images
-are sent to external servers.
-
-------------------------------------------------------------------------
-<<<<<<< HEAD
-
-###  Install dependencies using requirements.txt
-
-This project includes a file called **requirements.txt**.  
-It contains a list of Python libraries that the project needs.
-
-You do NOT install them one by one.  
-You install everything with one command.
-
-First make sure your virtual environment(venv) is active, then run:
+Make sure you have Python installed.  
+Create and activate a virtual environment (optional but recommended),
+then install the required libraries:
 
 ```bash
 pip install -r requirements.txt
-=======
->>>>>>> 39d47a331fc30afadc7b560e13b975211d913155
+
+This installs:
+mediapipe (face detection)
+opencv-python (camera and image processing)
+numpy (math operations)
+
+To run it type this in terminal
+python blur_cam_facemesh.py
