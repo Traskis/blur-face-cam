@@ -19,3 +19,16 @@ All processing happens locally on the computer, so no images
 are sent to external servers.
 
 ------------------------------------------------------------------------
+
+###  Install dependencies using requirements.txt
+
+This project includes a file called **requirements.txt**.  
+It contains a list of Python libraries that the project needs.
+
+You do NOT install them one by one.  
+You install everything with one command.
+
+First make sure your virtual environment(venv) is active, then run:
+
+```bash
+pip install -r requirements.txt
