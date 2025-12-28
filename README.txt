@@ -1,4 +1,4 @@
-English — project overview
+Project overview
 
 Automatic Real-Time Face Blurring
 
