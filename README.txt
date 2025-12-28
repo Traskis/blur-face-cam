@@ -1,4 +1,4 @@
-English — project overview
+Project overview
 
 Automatic Real-Time Face Blurring
 
@@ -19,6 +19,7 @@ All processing happens locally on the computer, so no images
 are sent to external servers.
 
 ------------------------------------------------------------------------
+<<<<<<< HEAD
 
 ###  Install dependencies using requirements.txt
 
@@ -32,3 +33,5 @@ First make sure your virtual environment(venv) is active, then run:
 
 ```bash
 pip install -r requirements.txt
+=======
+>>>>>>> 39d47a331fc30afadc7b560e13b975211d913155
